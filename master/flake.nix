@@ -9,7 +9,7 @@
   
   inputs.src-frida-master.flake = false;
   inputs.src-frida-master.owner = "ba0f3";
-  inputs.src-frida-master.ref   = "refs/heads/master";
+  inputs.src-frida-master.ref   = "master";
   inputs.src-frida-master.repo  = "frida.nim";
   inputs.src-frida-master.type  = "github";
   
