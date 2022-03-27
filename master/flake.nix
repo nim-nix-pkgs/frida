@@ -11,6 +11,7 @@
   inputs.src-frida-master.ref   = "refs/heads/master";
   inputs.src-frida-master.owner = "ba0f3";
   inputs.src-frida-master.repo  = "frida.nim";
+  inputs.src-frida-master.dir   = "";
   inputs.src-frida-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
