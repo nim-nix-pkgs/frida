@@ -7,40 +7,8 @@
   "license": "MIT",
   "web": "https://github.com/ba0f3/frida.nim",
   "refs": [
-    "refs/heads/master",
+    "fatal: unable to access 'https://github.com/ba0f3/frida.nim/': Could not resolve host: github.com",
     ""
   ],
-  "heads": [
-    {
-      "name": "frida",
-      "version": "0.1.0",
-      "author": "Huy Doan",
-      "desc": "Frida wrapper",
-      "license": "MIT",
-      "skipDirs": [
-        "examples",
-        "tests"
-      ],
-      "skipFiles": [],
-      "skipExt": [],
-      "installDirs": [],
-      "installFiles": [],
-      "installExt": [],
-      "requires": [
-        {
-          "name": "nim",
-          "str": ">= 1.4.8",
-          "ver": {
-            "kind": "verEqLater",
-            "ver": "1.4.8"
-          }
-        }
-      ],
-      "bin": [],
-      "binDir": "",
-      "srcDir": "src",
-      "backend": "c",
-      "ref": "refs/heads/master"
-    }
-  ]
+  "heads": []
 }
