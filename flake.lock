@@ -21,6 +21,33 @@
         "type": "github"
       }
     },
+    "frida-0_1_0": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-frida-0_1_0": "src-frida-0_1_0"
+      },
+      "locked": {
+        "dir": "0_1_0",
+        "lastModified": 1665581371,
+        "narHash": "sha256-aIBRc+ft3nQjUYrlfpf9U27EHTC2XFKbdZGH/bU/jCc=",
+        "owner": "nim-nix-pkgs",
+        "repo": "frida",
+        "rev": "1c6be350811e8db22d81c56164cef24f01d46be7",
+        "type": "github"
+      },
+      "original": {
+        "dir": "0_1_0",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "frida",
+        "type": "github"
+      }
+    },
     "frida-master": {
       "inputs": {
         "flakeNimbleLib": [
@@ -33,11 +60,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1662243194,
-        "narHash": "sha256-n33Dy2L08UShhEHwX/uxpU5wNYylg0UY4sDRNdfivbE=",
+        "lastModified": 1665581371,
+        "narHash": "sha256-aIBRc+ft3nQjUYrlfpf9U27EHTC2XFKbdZGH/bU/jCc=",
         "owner": "nim-nix-pkgs",
         "repo": "frida",
-        "rev": "a4f1e3510bd973f8b8f1c5bbd8dc0253436f68b0",
+        "rev": "1c6be350811e8db22d81c56164cef24f01d46be7",
         "type": "github"
       },
       "original": {
@@ -50,11 +77,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1662096612,
-        "narHash": "sha256-R+Q8l5JuyJryRPdiIaYpO5O3A55rT+/pItBrKcy7LM4=",
+        "lastModified": 1667110639,
+        "narHash": "sha256-4FbPESZ5LbqQxkJJJBAfk/zKgF9h/4kyUwjjpJwYlbc=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "21de2b973f9fee595a7a1ac4693efff791245c34",
+        "rev": "f38a1f04d1bec1feb61fd101a0539ae2002a7087",
         "type": "github"
       },
       "original": {
@@ -65,8 +92,26 @@
     "root": {
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
+        "frida-0_1_0": "frida-0_1_0",
         "frida-master": "frida-master",
         "nixpkgs": "nixpkgs"
+      }
+    },
+    "src-frida-0_1_0": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1635347308,
+        "narHash": "sha256-q+pD5n631HH3/vBm25OEo7XpqV1YUi21EV//YUqRQGI=",
+        "owner": "ba0f3",
+        "repo": "frida.nim",
+        "rev": "0afc661a711c5d062469e991e6049e32f90c28e1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ba0f3",
+        "ref": "refs/tags/0.1.0",
+        "repo": "frida.nim",
+        "type": "github"
       }
     },
     "src-frida-master": {
