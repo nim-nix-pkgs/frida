@@ -164,11 +164,11 @@
       },
       "locked": {
         "dir": "0_1_0",
-        "lastModified": 1668775824,
-        "narHash": "sha256-iJEx8oPGQTGhiHRojM7/H6x6IqkyGvOPK2/5OUFPBt0=",
+        "lastModified": 1669431100,
+        "narHash": "sha256-sQuGSSID+avx4f1nqoATaeetpUen9a/VGv9qr1pj+aE=",
         "owner": "nim-nix-pkgs",
         "repo": "frida",
-        "rev": "0b6e4972dae00d3110af692fd4f58a9dc69eeac8",
+        "rev": "f0838c329528e1f5b3ef78430c431bc1c8016da6",
         "type": "github"
       },
       "original": {
@@ -191,11 +191,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1668775824,
-        "narHash": "sha256-iJEx8oPGQTGhiHRojM7/H6x6IqkyGvOPK2/5OUFPBt0=",
+        "lastModified": 1669431100,
+        "narHash": "sha256-sQuGSSID+avx4f1nqoATaeetpUen9a/VGv9qr1pj+aE=",
         "owner": "nim-nix-pkgs",
         "repo": "frida",
-        "rev": "0b6e4972dae00d3110af692fd4f58a9dc69eeac8",
+        "rev": "f0838c329528e1f5b3ef78430c431bc1c8016da6",
         "type": "github"
       },
       "original": {
